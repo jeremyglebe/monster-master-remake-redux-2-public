@@ -15,6 +15,8 @@ original Flash file and reference archives remain private. JavaScript and CSS in
 the downloads are minified, without source maps. Original artwork and other
 materials retain their original ownership; publication grants no new license.
 
+Latest stable release: [1.1.4](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.1.4).
+
 ## Downloads
 
 Use the `browser.zip` asset for a static web server at its root. Extract the ZIP
