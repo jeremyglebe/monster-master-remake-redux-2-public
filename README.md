@@ -1,5 +1,7 @@
 # Monster Master · remake
 
+Latest stable release: [1.1.4](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.1.4).
+
 [Play Monster Master](https://monstermaster.fans/) · [Download releases](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases)
 
 An HTML5 remake of Matthew Stradwick (Moonkey)'s original Monster Master,
@@ -8,14 +10,14 @@ published by Crazy Monkey Games. Remade with permission.
 Play against the computer, watch two computers, or share a device for local
 two-player games. Choose your characters, names, deck strengths or custom decks
 made from the original cards. Classic is the default appearance; Settings lets
-you switch to Modern and continue the same match. Online multiplayer is planned.
+you switch to Modern and continue the same match. Online multiplayer uses private
+invitation rooms: choose Multiplayer, share a room link, mark Ready, then start.
+Guests need no account, and Classic and Modern can play together.
 
 This repository distributes **built releases**. The game's development source,
 original Flash file and reference archives remain private. JavaScript and CSS in
 the downloads are minified, without source maps. Original artwork and other
 materials retain their original ownership; publication grants no new license.
-
-Latest stable release: [1.1.4](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.1.4).
 
 ## Downloads
 
