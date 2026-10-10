@@ -25,6 +25,12 @@ Use the `browser.zip` asset for a static web server at its root. Extract the ZIP
 and serve that folder over HTTP. The `pages.zip` asset is prepared for this
 repository's GitHub project path. `SHA256SUMS.txt` lists archive checksums.
 
+## Play against an assistant
+
+[MCP 0.1.0](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/mcp-v0.1.0) lets an assistant play a multiplayer seat through API calls. The package includes the `play-monster-master` skill, which guides ongoing, chatty play using only player-visible information.
+
+See the [installation guide](docs/mcp-installation.md) for Codex, Claude Code/Desktop, Cursor and VS Code/Copilot. Requires Node.js 22.12 or newer; install the package, install the companion skill, and register the MCP server in your client. Then share a full invitation URL from the game's Multiplayer menu. Conversation stays in the assistant chat. The MCP has its own version and does not update the hosted game.
+
 ## Website updates
 
 Publishing a stable release with a Pages archive triggers the deployment
