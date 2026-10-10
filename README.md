@@ -5,14 +5,19 @@ Latest stable release: [1.2.0](https://github.com/jeremyglebe/monster-master-rem
 [Play Monster Master](https://monstermaster.fans/) · [Download releases](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases)
 
 An HTML5 remake of Matthew Stradwick (Moonkey)'s original Monster Master,
-published by Crazy Monkey Games. Remade with permission.
+published by Crazy Monkey Games.
 
 Play against the computer, watch two computers, or share a device for local
 two-player games. Choose your characters, names, deck strengths or custom decks
-made from the original cards. Classic is the default appearance; Settings lets
-you switch to Modern and continue the same match. Online multiplayer uses private
-invitation rooms: choose Multiplayer, share a room link, mark Ready, then start.
-Guests need no account, and Classic and Modern can play together.
+made from the original cards. Phones and touch tablets default to Mobile; desktop
+players start in Classic. Settings offers Classic, Modern and Mobile, preserving
+the same match when switching. Mobile uses the Classic burgundy/cream/gold
+palette, tap-to-inspect cards, highlighted targets, scrolling hands and fields,
+and large turn controls.
+
+Online multiplayer uses private invitation rooms: choose Multiplayer, share a
+room link, mark Ready, then start. Guests need no account, and all three
+interfaces can play together.
 
 This repository distributes **built releases**. The game's development source,
 original Flash file and reference archives remain private. JavaScript and CSS in
