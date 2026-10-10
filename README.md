@@ -1,6 +1,6 @@
 # Monster Master · remake
 
-Latest stable release: [1.3.1](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.3.1).
+Latest stable release: [1.3.2](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.3.2).
 
 [Play Monster Master](https://monstermaster.fans/) · [Download releases](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases)
 
