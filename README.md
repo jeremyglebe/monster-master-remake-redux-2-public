@@ -17,7 +17,7 @@ and large turn controls.
 
 Online multiplayer uses private invitation rooms: choose Multiplayer, share a
 room link, mark Ready, then start. Guests need no account, and all three
-interfaces can play together.
+interfaces can play together. The host chooses Classic or Reforged rules independently of the interface. Reforged allows chosen fusion ingredients and a Reborn target; Classic preserves automatic choices. All interfaces show status icons, with a purple eye for Psychic possession. Mobile also displays the original matching fusion emblems.
 
 This repository distributes **built releases**. The game's development source,
 original Flash file and reference archives remain private. JavaScript and CSS in
@@ -32,7 +32,7 @@ repository's GitHub project path. `SHA256SUMS.txt` lists archive checksums.
 
 ## Play against an assistant
 
-[MCP 0.1.0](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/mcp-v0.1.0) lets an assistant play a multiplayer seat through API calls. The package includes the `play-monster-master` skill, which guides ongoing, chatty play using only player-visible information.
+[MCP 0.2.0](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.4.0) lets an assistant play a multiplayer seat through API calls. The package includes the `play-monster-master` skill, which guides ongoing, chatty play using only player-visible information.
 
 See the [installation guide](docs/mcp-installation.md) for Codex, Claude Code/Desktop, Cursor and VS Code/Copilot. Requires Node.js 22.12 or newer; install the package, install the companion skill, and register the MCP server in your client. Then share a full invitation URL from the game's Multiplayer menu. Conversation stays in the assistant chat. The MCP has its own version and does not update the hosted game.
 
