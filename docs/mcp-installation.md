@@ -2,19 +2,19 @@
 
 Play [Monster Master](https://monstermaster.fans/) against an assistant through multiplayer API tools. You use the game's normal Multiplayer screen; the assistant gets its own guest seat and only player-visible information. The package includes a `play-monster-master` Agent Skill for chatty, continued play.
 
-**Release:** [MCP 0.1.0](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/mcp-v0.1.0) is distributed alongside the game in its public release repository. The package includes the server, play skill and this guide. It is installed from GitHub; npm registry publication is optional and has not happened.
+**Release:** [MCP 0.2.0](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/tag/v1.4.0) is distributed alongside the game in its public release repository. The package includes the server, play skill and this guide. It is installed from GitHub; npm registry publication is optional and has not happened.
 
 ## Install the package
 
 Requires Node.js 22.12 or newer on Windows, macOS or Linux. Install directly from the release:
 
 ```sh
-npm install --global https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/mcp-v0.1.0/monster-master-mcp-0.1.0.tgz
+npm install --global https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/v1.4.0/monster-master-mcp-0.2.0.tgz
 monster-master-mcp --version
 npm root --global
 ```
 
-Alternatively, download the [package](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/mcp-v0.1.0/monster-master-mcp-0.1.0.tgz) and [SHA-256 checksum](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/mcp-v0.1.0/monster-master-mcp-0.1.0.tgz.sha256), verify the file, then run `npm install --global /absolute/path/to/monster-master-mcp-0.1.0.tgz`. In PowerShell, `Get-FileHash ./monster-master-mcp-0.1.0.tgz -Algorithm SHA256` prints the hash; on macOS/Linux, use `shasum -a 256 ./monster-master-mcp-0.1.0.tgz`. Compare it with the checksum file. Developers can build the same artifacts with `npm run package:mcp` in the development checkout (output: `release-artifacts/mcp/`).
+Alternatively, download the [package](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/v1.4.0/monster-master-mcp-0.2.0.tgz) and [SHA-256 checksum](https://github.com/jeremyglebe/monster-master-remake-redux-2-public/releases/download/v1.4.0/monster-master-mcp-0.2.0.tgz.sha256), verify the file, then run `npm install --global /absolute/path/to/monster-master-mcp-0.2.0.tgz`. In PowerShell, `Get-FileHash ./monster-master-mcp-0.2.0.tgz -Algorithm SHA256` prints the hash; on macOS/Linux, use `shasum -a 256 ./monster-master-mcp-0.2.0.tgz`. Compare it with the checksum file. Developers can build the same artifacts with `npm run package:mcp` in the development checkout (output: `release-artifacts/mcp/`).
 
 The last command locates your installed packages. The MCP entry point is `<global-root>/monster-master-mcp/bin/monster-master-mcp.mjs`. Substitute its **absolute path** in the examples below. On Windows, forward slashes in JSON paths work; otherwise escape backslashes as `\\`. If a desktop app cannot find Node, use its absolute executable path instead of `node`.
 
